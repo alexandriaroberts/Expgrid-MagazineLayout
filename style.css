@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|PT+Sans+Narrow');
+
+
+body{
+    padding:0;
+	margin:0;
+	background: #ffffff;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.grid-wrapper{
+	display: grid;
+	grid-template-columns: repeat(10, 10%);
+	grid-template-rows: 1vw repeat(29, 10vw);
+	}
+
+
+.large{
+font-family: 'Anton', sans-serif;
+font-size: 7.5vw;
+line-height:1.4vh;
+align-self: center;
+}
+
+.issue{
+font-size: 3.5vw;
+line-height:7vh;
+margin-top: 0;
+padding-top: 0;
+align-self: center;
+font-variant: normal;
+border-bottom: 0.2em solid #000;
+}
+
+.issue-price{
+font-size: 1.0vw;
+line-height:2vh;
+margin-top: 0;
+padding-top: 0;
+justify-self: end;
+font-variant: normal;
+}
+
+.page1image{
+font-size: 1.0vw;
+line-height:2vh;
+font-variant: normal;
+padding-left: 0em; 
+}
+
+
+
+
+.box{
+font-size: 1.5vw;
+line-height:3.5vh;
+margin-top: 0;
+padding-top: 1em;
+justify-self: center;
+font-variant: normal;
+border-top: 0.4em solid #000;
+background: none;
+box-sizing: border-box;
+width: 12vw;
+height: 15vh;
+box-sizing: border-box;
+}
+
+.i{
+	font-size: 1.2vw;
+	line-height: 3.5vh;
+}
+
+.pageno {
+	font-size: 1.0vw;
+	line-height: 3.5vh;
+}
+
+.footnote{
+	font-size: 1.0vw;
+	line-height: 3.5vh;
+	justify-self: center;
+}
+
+.footnote1{
+border-bottom: 0.1em solid #000;
+}
+
+.page2heading{
+font-family: 'Anton', sans-serif;
+font-size: 8.5vw;
+line-height:35.4vh;
+align-self: start;
+color: #E8DD0F;
+padding-top: 0.5em;
+padding-left: 0.5em;
+z-index: 5;
+}
+
+.boxpage2{
+margin-top: 0;
+padding-top: 0em;
+font-variant: normal;
+border-bottom: 0.1em solid #E8DD0F;
+background: none;
+box-sizing: border-box;
+}
+
+.third-page{
+	background: #E8DD0F;
+}
+
+.headingpage3{
+font-family: 'Anton', sans-serif;
+font-size: 14.5vw;
+line-height:27.4vh;
+justify-self: end;
+color: #FFFFFF;
+padding: 0;
+padding-right: 0.1em;
+margin:0;
+border-bottom: 0.1em solid #FFFFFF;
+}
+
+.page-text{
+font-size: 1.5vw;
+line-height:5.5vh;
+font-weight: 600;
+word-spacing: 1%;
+margin-top: 0;
+padding: 3em;
+justify-self: center;
+text-transform: uppercase;
+text-decoration-style: solid;
+text-decoration: underline;
+background: none;
+}
+
+.authority-text{
+font-size: 1.2vw;
+line-height: 3.5vh;
+margin-top: 0;
+padding: 3em;
+justify-self: center;
+}
+
+
+.a{
+font-weight: 600;	
+}
+
+.footnote2box{
+border-bottom: 0.1em solid #000;
+}
+.page4text{
+font-size: 1.5vw;
+line-height:5.5vh;
+font-weight: 600;
+word-spacing: 1%;
+margin-top: 0;
+padding: 3em;
+justify-self: end;
+text-transform: uppercase;
+text-decoration-style: solid;
+text-decoration: underline;
+background: none;
+}
+.p4{
+	color:#E8DD0F;
+	text-decoration: underline;
+	text-decoration-color: #E8DD0F;
+}
+
+.page5text-top{
+justify-content: center;
+line-height: 1.5em;
+padding-right: 10%;
+
+}
+
+.page5text-middle{
+font-size: 1.7vw;
+line-height:6.5vh;
+font-weight: 600;
+word-spacing: 1%;
+margin-top: 0;
+align-self: center;
+text-transform: uppercase;
+text-decoration-style: solid;
+text-decoration: underline;
+background: none;
+color:#E8DD0F;
+text-decoration-color: #E8DD0F;
+}
+
+.page5text-bottom{
+justify-content: center;
+line-height: 1.5em;
+padding-right: 10%;
+padding-top: 10%;
+
+}
+.page4text-largeheading{
+font-family: 'Anton', sans-serif;
+font-size: 9.5vw;
+line-height:24.4vh;
+align-self: start;
+color: #E8DD0F;
+padding: 0;
+padding-left: 0;
+padding-top: 0;
+margin:0;
+border-bottom: 0.1em solid #E8DD0F;
+z-index: 15;
+opacity:0.8;
+}
+
+.page5text-largeheading{
+font-family: 'Anton', sans-serif;
+font-size: 9.5vw;
+line-height:24.4vh;
+align-self: start;
+color: #E8DD0F;
+padding: 0;
+padding-left: 0.1em;
+padding-top: 0;
+margin:0;
+border-bottom: 0.1em solid #E8DD0F;
+z-index: 15;
+opacity:0.8;	
+}
+
+
+.heropage4{
+	padding-left: 10%;
+}
+.page4smallimage{
+	padding-left: 10%;
+	padding-top: 10%;
+}
+.page5text-heading-middle{
+font-size: 1.5vw;
+line-height:5.5vh;
+font-weight: 600;
+word-spacing: 1%;
+margin-top: 0;
+align-self: end;
+text-transform: uppercase;
+text-decoration-style: solid;
+text-decoration: underline;
+background: none;	
+}
+
+.footnote3box{
+border-bottom: 0.1em solid #000;
+}
+/* Grid start below*/
+.heading1{
+grid-column: 3;
+grid-row: 3;
+}
+
+.heading2{
+grid-column: 4;
+grid-row:4;
+}
+
+.issue{
+grid-column: 7/8;
+grid-row:3;
+}
+
+.issue-price{
+grid-column: 7/8;
+grid-row:4;
+}
+
+.page1image{
+grid-column: 2;
+grid-row:6;
+}
+
+.box1{
+grid-column: 6/ 8;
+grid-row:7;
+}
+
+.box2{
+grid-column: 6/ 8;
+grid-row:8;
+
+}
+
+.box3{
+grid-column: 6/ 8;
+grid-row:9;
+
+}
+
+.box4{
+grid-column: 6/ 8;
+grid-row:10;
+}
+
+.footnote{
+grid-column: 2/ 8;
+grid-row:12;
+}
+
+.footnote1{
+width: 80vw;
+height: 15vh;
+grid-column: 2/ 9;
+grid-row:12;
+}
+
+.hero{
+grid-column: 2/ 4;
+grid-row:13;
+z-index: 5;
+}
+.page2heading{
+grid-column: 1/ 5;
+grid-row:13 / 20;
+}
+
+/* Nested grid here*/
+ .grid-wrapper .page2heading{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+  }
+
+.b1{
+	grid-column: 1/ 3;
+grid-row:1;
+}
+
+.b2{
+	grid-column: 1/ 5;
+grid-row:2;
+}
+
+.b3{
+	grid-column: 1/ 5;
+grid-row:3;
+}
+
+.third-page{
+	grid-column: 6/ span 10;
+grid-row:13 / 19;
+}
+
+/* Another nested grid*/
+ .grid-wrapper .third-page{
+display:grid;
+grid-template-columns: 1fr;
+grid-template-rows: 0.8fr 1fr 1fr;	
+}
+
+.headingpage3{
+grid-column: 1;
+grid-row:1;
+}
+
+.page-text{
+grid-column: 1;
+grid-row:2;
+}
+
+.authority-text{
+grid-column: 1;
+grid-row:3;
+}
+
+.footnote2box{
+width: 80vw;
+height: 15vh;
+grid-column: 2/ 9;
+grid-row:19;
+}
+
+.heropage4{
+grid-column: 1;
+grid-row:20;
+}
+
+.page4text{
+grid-column: 3 / span 3;
+grid-row:21;
+}
+
+.page4smallimage{
+grid-column: 1 / span 3;
+grid-row:26;
+}
+
+.page5text-top{
+grid-column: 7/ span 8;
+grid-row:20;
+}
+
+.page5text-middle{
+grid-column: 6/ span 8;
+grid-row:24;
+}
+
+.page5text-heading-middle{
+grid-column: 7 /span 7;
+grid-row:25;
+}
+.page5text-bottom{
+grid-column: 7/ span 8;
+grid-row:26;
+}
+
+.page4text-largeheading{
+grid-column: 1;
+grid-row: 20;	
+}
+
+.page5text-largeheading{
+grid-column: 10;
+grid-row: 26;	
+}
+
+.footnote3box{
+grid-column: 2/9;
+grid-row: 28;	
+}
