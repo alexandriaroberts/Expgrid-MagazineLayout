@@ -1,4 +1,4 @@
-# agazine CSS Grid only Layout 
+# Magazine CSS Grid only Layout 
 
 Inspiration for this was from (https://res.cloudinary.com/dv3lue3qa/image/upload/v1558501553/magzine1.png)
 
