@@ -1,5 +1,9 @@
-Hey Guys,
+#Magazine CSS Grid only Layout 
 
-I am practicing CSS Grid layouts, to make it interesting I decided to go creative.
-The images and the whole layout is not responsive yet, but hopefully I would be able to do it.
+Inspiration for this was from (https://res.cloudinary.com/dv3lue3qa/image/upload/v1558501553/magzine1.png)
 
+## Live Demo: (https://codepen.io/iamlexieonearth/full/PaqMRV)
+
+<img src="https://res.cloudinary.com/dv3lue3qa/image/upload/v1558501553/magazine2.png">
+
+<img src="https://res.cloudinary.com/dv3lue3qa/image/upload/v1558501553/magzine1.png">
